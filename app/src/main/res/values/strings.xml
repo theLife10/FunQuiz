@@ -2,6 +2,13 @@
     <string name="app_name">FunQuiz</string>
     <string name = "true_button">True</string>
     <string name="false_button">False</string>
-    <string name="question_text">Constantinople is the largest city in Turkey</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="false_toast">False:(</string>
+    <string name="next_button">Next</string>
+    <string name="chuy_pizza">Does chuy like pizza?</string>
+    <string name="chuy_computer">Does chuy like computers?</string>
+    <string name="chuy_coffee">Does chuy like coffee?</string>
+    <string name="chuy_car">does chuy like cars?</string>
+    <string name="chuy_dog">does chuy have a car?</string>
 
 </resources>

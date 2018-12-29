@@ -4,13 +4,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button mTrueButton;
     private Button mFalseButton;
+
+    private Question [] mQuestionBank = new Question[] {
+            new Question(R.string.chuy_car,false),
+            new Question(R.string.chuy_dog,true),
+            new Question(R.string.chuy_pizza,false),
+            new Question(R.string.chuy_computer,true),
+            new Question(R.string.chuy_coffee,true),
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
